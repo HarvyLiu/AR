@@ -1,0 +1,16 @@
+<model-viewer src="scene.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.006477971707406674m -0.09357465869857384m 0.4949638639663507m" data-normal="0.1613877472958433m -0.016889900195822604m 0.9867465359929815m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">NUTS</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.0035663310322474953m 0.11609458145296314m 0.42340947027680625m" data-normal="0.050279711693949236m 0.2237593611221371m 0.9733466488883529m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">SQUIRREL</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
